@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+
+<style>
+    body{
+    	margin: 0;
+    	padding: 0;
+	    font-family: 'Garamond';
+    	background-image: url('bgg.jfif');
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-size: 100% 100%;
+    }
+  
+    .box{
+        width: 400px;
+        padding: 50px 30px;
+        position: absolute;
+        background-color: rgba(52, 53, 51, 0.6);
+        border-radius: 50px;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box h1{
+        color: white;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 40px;
+        font-size: 2.5em;
+        font-weight: normal;
+    }
+
+    .Name {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+   .Name label{
+       color: white;
+       font-weight: lighter;
+       font-size: 1.5em;
+       margin-bottom: 7px;
+   }
+
+   .Name input{
+       font-size: 1.5em;
+       padding: .1em .25em;
+       background-color: rgba(234, 236, 231, 0.6);
+       border: none;
+       outline: none;
+       border-radius: 24px;
+       text-align: left;
+   }
+
+   .box input[type="submit"] {
+	color: White;
+	font-size: 1.5em;
+	font-family: 'Garamond';
+        padding: 14px 10px; 
+        border: none;  
+  	display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 50%;
+        border-radius: 24px;
+	cursor: pointer;
+        background-color: rgba(201, 204, 197, 0.6);
+   }
+</style>
+
+<title>Register your travel</title>
+
+<body>
+
+<form class="box" action="attach.html" method="get"> 
+
+<h1>Registration Form </h1>
+
+  <div class="Name">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" value="">
+  </div>
+
+  <div class="Name">
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" value="">
+  </div>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
